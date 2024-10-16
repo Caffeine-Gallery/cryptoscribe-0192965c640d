@@ -1,0 +1,93 @@
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+#container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.post {
+  background: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.post h2 {
+  margin-top: 0;
+}
+
+.post-body {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.post-meta {
+  font-size: 14px;
+  color: #888888;
+}
+
+#newPostForm {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 60px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+}
+
+#closeForm {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#closeForm:hover,
+#closeForm:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#editor {
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+#submitPostButton {
+  padding: 10px 20px;
+  font-size: 16px;
+}
